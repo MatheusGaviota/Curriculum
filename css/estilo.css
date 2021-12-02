@@ -2,3 +2,22 @@
 	padding-top: 2vh;
 	padding-bottom: 2vh;
 }
+.competencia{
+	width: 30%;
+}
+.comp-icon{
+	width: 4%;
+    position: relative;
+    display: block;
+}
+.comp-text{
+	margin-left: 1%;
+	margin-top: 1%;
+}
+.comp-border{
+	border: 2px solid rgba(0, 0, 0, 1);
+}
+.comp-button:focus {
+	border-color: #6c757d;
+	box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.25);
+  }

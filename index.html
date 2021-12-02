@@ -16,13 +16,13 @@
     <title>Currículo</title>
   </head>
   <body class="text-white bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
   <div class="container">
-    <a class="navbar-brand" href="#"><img class="tamanho-logo" src="img/favicon/logo.png"></a>
+    <a class="navbar-brand" href="#"><img src="img/favicon/favicon-32x32.png"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -96,44 +96,43 @@
             </div>
           </div>
       </section>
-      <section class="bg-transparent" id=competencia>
+      <section class="accordion" id=competencia>
           <h1 class="text-center p-4">Competências Socioemocionais</h1>
-          <div class="row">
-            <div class="col-md-4">
-              <img src="img/me.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-md-4">
-              <img src="img/me.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-md-4">
-              <img src="img/me.png" class="d-block w-100" alt="...">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <p>Meu nome é Matheus Souza Rodrigues, tenho 15 anos e estudo na Etec MCM, cursando o primeiro ano de Ensino Médio com curso de Informática. Desde cedo eu estive relacionado com a informática, e algumas vezes eu aprendi no teste a como mexer em algumas ferramentas, mesmo assim algumas funções me passava por despercebido, então o curso me dá o sexto sentido para me ajudar. Gosto de jogar RPGs e jogos variados, assistir séries e filmes de mistério, romance policial, histórias de partir o coração e etc. Atualmente estou bem indeciso com a carreira na qual irei seguir, entretanto, como sou bom com cálculos e lógica talvez eu me torne um programador.</p>
-            </div>
-            <div class="col-md-4">
-              <p>Meu nome é Matheus Souza Rodrigues, tenho 15 anos e estudo na Etec MCM, cursando o primeiro ano de Ensino Médio com curso de Informática. Desde cedo eu estive relacionado com a informática, e algumas vezes eu aprendi no teste a como mexer em algumas ferramentas, mesmo assim algumas funções me passava por despercebido, então o curso me dá o sexto sentido para me ajudar. Gosto de jogar RPGs e jogos variados, assistir séries e filmes de mistério, romance policial, histórias de partir o coração e etc. Atualmente estou bem indeciso com a carreira na qual irei seguir, entretanto, como sou bom com cálculos e lógica talvez eu me torne um programador.</p>
-            </div>
-            <div class="col-md-4">
-              <p>Meu nome é Matheus Souza Rodrigues, tenho 15 anos e estudo na Etec MCM, cursando o primeiro ano de Ensino Médio com curso de Informática. Desde cedo eu estive relacionado com a informática, e algumas vezes eu aprendi no teste a como mexer em algumas ferramentas, mesmo assim algumas funções me passava por despercebido, então o curso me dá o sexto sentido para me ajudar. Gosto de jogar RPGs e jogos variados, assistir séries e filmes de mistério, romance policial, histórias de partir o coração e etc. Atualmente estou bem indeciso com a carreira na qual irei seguir, entretanto, como sou bom com cálculos e lógica talvez eu me torne um programador.</p>
+          <div class="comp-border bg-secondary">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button comp-button bg-secondary text-white collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                <img class="comp-icon" src="img/competencias/gear.png" alt="">
+                <p class="comp-text">Autogestão</p>
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <img src="img/me.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-md-6">
-              <img src="img/me.png" class="d-block w-100" alt="...">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
-              <p>Meu nome é Matheus Souza Rodrigues, tenho 15 anos e estudo na Etec MCM, cursando o primeiro ano de Ensino Médio com curso de Informática. Desde cedo eu estive relacionado com a informática, e algumas vezes eu aprendi no teste a como mexer em algumas ferramentas, mesmo assim algumas funções me passava por despercebido, então o curso me dá o sexto sentido para me ajudar. Gosto de jogar RPGs e jogos variados, assistir séries e filmes de mistério, romance policial, histórias de partir o coração e etc. Atualmente estou bem indeciso com a carreira na qual irei seguir, entretanto, como sou bom com cálculos e lógica talvez eu me torne um programador.</p>
-            </div>
-            <div class="col-md-6">
-              <p>Meu nome é Matheus Souza Rodrigues, tenho 15 anos e estudo na Etec MCM, cursando o primeiro ano de Ensino Médio com curso de Informática. Desde cedo eu estive relacionado com a informática, e algumas vezes eu aprendi no teste a como mexer em algumas ferramentas, mesmo assim algumas funções me passava por despercebido, então o curso me dá o sexto sentido para me ajudar. Gosto de jogar RPGs e jogos variados, assistir séries e filmes de mistério, romance policial, histórias de partir o coração e etc. Atualmente estou bem indeciso com a carreira na qual irei seguir, entretanto, como sou bom com cálculos e lógica talvez eu me torne um programador.</p>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
             </div>
           </div>
       </section>
