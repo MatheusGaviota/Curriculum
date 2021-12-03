@@ -12,12 +12,21 @@
 }
 .comp-text{
 	margin-left: 1%;
-	margin-top: 1%;
 }
 .comp-border{
 	border: 2px solid rgba(0, 0, 0, 1);
 }
+.comp-button{
+	background-color: #343a40;
+}
 .comp-button:focus {
 	border-color: #6c757d;
-	box-shadow: 0 0 0 0.25rem rgba(33, 37, 41, 0.25);
-  }
+	box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.150);
+}
+.comp-button:not(.collapsed){
+	background-color: #495057;
+}
+.mx-6{
+	margin-right: 4rem !important;
+	margin-left: 4rem !important;
+}
